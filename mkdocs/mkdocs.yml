@@ -1,0 +1,20 @@
+site_name: Deezer-Python
+docs_dir: source
+theme: readthedocs
+nav:
+  - Installation & usage:
+    - Installation: installation.md
+    - Usage: usage.md
+  - API Reference:
+    - Client: api/client.md
+    - Contrib: api/contrib.md
+    - Resources: api/resources.md
+  - Project Info:
+    - Contributing: contributing.md
+    - Changelog: changelog.md
+
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - mkautodoc
